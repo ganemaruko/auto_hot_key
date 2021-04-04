@@ -4,7 +4,6 @@
 
 #Include %A_ScriptDir%/IME.ahk
 
-
 ; 変換,無変換を行えるようにする
 ; vk1D::
 ;  Send, {vk1D}
@@ -56,12 +55,12 @@ vk1D & b::Send,{Blind}{left}
 vk1D & p::Send,{Blind}{up}
 vk1D & k::Send,{LShift Down}{End}{Del}{LShift Up}
 vk1D & d::Send,{BackSpace}
-vk7C & n::Send,{Blind}{down}
-vk7C & f::Send,{Blind}{right}
-vk7C & b::Send,{Blind}{left}
-vk7C & p::Send,{Blind}{up}
-vk7C & k::Send,{LShift Down}{End}{Del}{LShift Up}
-vk7C & d::Send,{BackSpace}
+; vk7C & n::Send,{Blind}{down}
+; vk7C & f::Send,{Blind}{right}
+; vk7C & b::Send,{Blind}{left}
+; vk7C & p::Send,{Blind}{up}
+; vk7C & k::Send,{LShift Down}{End}{Del}{LShift Up}
+; vk7C & d::Send,{BackSpace}
 
 ; ctr
 ^k::Send,{LShift Down}{End}{Del}{LShift Up}	
