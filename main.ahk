@@ -37,8 +37,8 @@ vk1c::IME_SET(1)
 ; 行末、行頭への移動
 vk1D & a::Send,{Blind}{HOME}
 vk1D & e::Send,{Blind}{END}
-vk7C & a::Send,{Blind}{HOME}
-vk7C & e::Send,{Blind}{END}
+; vk7C & a::Send,{Blind}{HOME}
+; vk7C & e::Send,{Blind}{END}
 
 ; 基本の操作を無変換に適用
 vk1D & z::Send, ^z
