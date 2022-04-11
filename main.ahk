@@ -54,7 +54,7 @@ vk1D & f::Send,{Blind}{right}
 vk1D & b::Send,{Blind}{left}
 vk1D & p::Send,{Blind}{up}
 vk1D & k::Send,{LShift Down}{End}{Del}{LShift Up}
-vk1D & d::Send,{BackSpace}
+vk1D & d::Send,^{BackSpace}
 ; vk7C & n::Send,{Blind}{down}
 ; vk7C & f::Send,{Blind}{right}
 ; vk7C & b::Send,{Blind}{left}
